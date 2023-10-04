@@ -18,3 +18,18 @@ To get started with **UzWordCriteriaMatcher**, follow these steps:
 
    ```shell
    git clone https://github.com/abdulmalikkambarov/UzWordCriteriaMatcher.git
+
+2. Navigate to the project directory.
+
+   ```shell
+   cd UzWordCriteriaMatcher
+
+3. Install the required dependencies. Ensure you have Python installed.
+
+   ```shell
+   pip install fuzzywuzzy
+
+4. Run the main script to use the tool.
+
+   ```shell
+   python inference.py
