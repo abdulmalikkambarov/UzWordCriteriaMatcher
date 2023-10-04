@@ -4,6 +4,8 @@
 
 **UzWordCriteriaMatcher** is a Python tool designed to list Uzbek words that meet specific criteria. It extracts criteria from the input text and searches for words in its dataset of over 40,000 Uzbek words, returning a list of words that match the specified conditions.
 
+The dataset of Uzbek words used in this project was obtained from [Uzbek Wiktionary](https://uz.wiktionary.org/wiki/Turkum:O%CA%BBzbek_tili).
+
 ## Features
 
 - Extracts criteria from input text.
