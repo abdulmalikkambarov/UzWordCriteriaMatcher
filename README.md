@@ -36,16 +36,6 @@ To get started with **UzWordCriteriaMatcher**, follow these steps:
 
 ## Usage
 
-When you run the inference.py, you will be prompted to enter your text. For example:
+When you run the inference.py, you will be prompted to enter your text. After entering your prompt (for example, "o harfi bilan boshlanadigan, a harfi bilan tugaydigan, l 2-harfi bõlgan va jami 4 ta harfdan tashkil topgan sõzlarni top"), the script will process the input and provide you with a message like this:
 
-   ```shell
-   Matn kiriting:
 
-After entering your prompt ("o harfi bilan boshlanadigan, a harfi bilan tugaydigan, l 2-harfi bõlgan va jami 4 ta harfdan tashkil topgan sõzlarni top"), the script will process the input and provide you with a message like this:
-
-   ```shell
-   Quyida “O” harfi bilan boshlanadigan, “A” harfi bilan tugaydigan, 2-harfi “L” bõlgan va jami 4 ta harfdan tashkil topgan sõzlar rõyxati keltirilgan:
-   1. olma
-   2. olğa
-
-This message will display the criteria extracted from your input text and list the matching words.
