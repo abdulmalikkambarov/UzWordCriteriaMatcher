@@ -26,7 +26,7 @@ def OpeningSen(criteria):
         return ', '.join(criteria_sentences)
 
 if __name__ == '__main__':
-    input_text = "o harfi bilan boshlanib, a tortinchi harfi boʻlgan va jami 4 ta harfdan tashkil topgan soʻzlarni top"
+    input_text = "o harfi bilan boshlanadigan, a harfi bilan tugaydigan, l 2-harfi bõlgan va jami 4 ta harfdan tashkil topgan sõzlarni top"
     matching_words = FindWordsMatchingCriteria(input_text, max_tokens=10)
     criteria = CriExtractor(input_text)
     formatted_criteria = OpeningSen(criteria)
