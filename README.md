@@ -38,6 +38,13 @@ To get started with **UzWordCriteriaMatcher**, follow these steps:
 
 ## Usage
 
-When you run the inference.py, you will be prompted to enter your text. After entering your prompt (for example, "o harfi bilan boshlanadigan, a harfi bilan tugaydigan, l 2-harfi bõlgan va jami 4 ta harfdan tashkil topgan sõzlarni top"), the script will process the input and provide you with a message like this:
+When you run the `inference.py`, you will be prompted to enter your text. After entering your prompt (for example, "o harfi bilan boshlanadigan, a harfi bilan tugaydigan, l 2-harfi bõlgan va jami 4 ta harfdan tashkil topgan sõzlarni top"), the script will process the input and provide you with a message like this:
 
 ![](./images/example.png)
+
+### max_tokens
+
+There's a `max_tokens` parameter that allows you to control how many words are displayed in the output. To change the parameter's value, you can modify the `max_tokens` argument in the `inference.py` script. For example, to display a maximum of 20 words, you can modify the following line in `inference.py`:
+
+```python
+matching_words = FindWordsMatchingCriteria(input_text, max_tokens=20)
