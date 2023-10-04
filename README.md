@@ -38,4 +38,4 @@ To get started with **UzWordCriteriaMatcher**, follow these steps:
 
 When you run the inference.py, you will be prompted to enter your text. After entering your prompt (for example, "o harfi bilan boshlanadigan, a harfi bilan tugaydigan, l 2-harfi bõlgan va jami 4 ta harfdan tashkil topgan sõzlarni top"), the script will process the input and provide you with a message like this:
 
-
+![](./images/example.png)
